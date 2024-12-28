@@ -58,3 +58,8 @@ xyz = ''' Janya said "hi"
           Deepa said "hello"
           Div said "GM" '''
 print(xyz)       #Multiple line input
+
+
+# Length of string includes space
+print(len(message))
+print(len(abc))
