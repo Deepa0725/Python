@@ -24,3 +24,19 @@ print(message)
 
 NAME1 = "Deepa"
 print(NAME1 * 10)
+
+
+# String Methods
+print(message.upper())
+
+print(message.lower())
+
+print(message.strip())     # Avoid the spaces
+
+he = "DEE  "
+print(he)
+print(he.strip()*2)
+
+print(message.replace("Warning! ", "Error"))    # Replace
+
+print(he.replace("DEE", "PAA"))
