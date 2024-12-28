@@ -40,3 +40,21 @@ print(he.strip()*2)
 print(message.replace("Warning! ", "Error"))    # Replace
 
 print(he.replace("DEE", "PAA"))
+
+
+txt = "I love apples , apple are my favorite fruit"    #count
+
+x = txt.count("apple")
+
+print(x)
+
+
+
+name = "Deepa said 'hello'"    #single line input
+print(name)
+abc = 'I went to "Temple"'
+print(abc)
+xyz = ''' Janya said "hi"
+          Deepa said "hello"
+          Div said "GM" '''
+print(xyz)       #Multiple line input
