@@ -20,3 +20,22 @@ print(sentence.lower())
 print(sentence.upper())
 print(sentence.replace(" ", "_"))
 print(sentence.strip())
+
+
+
+'''Character Counter: Write a Python program that:
+
+Asks the user for a string.
+Prints how many characters are in the string, excluding spaces.'''
+
+sentence1 = (input("Enter the String: "))
+print(sentence1)
+
+exclude_space = sentence1.replace(" ", "")
+
+character_count = len(exclude_space)
+print("Number of Characters (excluding counts):", character_count)
+
+# Including Space 
+count = len(sentence1)
+print("Number of characters:",count)
