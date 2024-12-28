@@ -39,3 +39,8 @@ print("Number of Characters (excluding counts):", character_count)
 # Including Space 
 count = len(sentence1)
 print("Number of characters:",count)
+
+
+# Escape Sequence Practice: Write a Python program that uses escape sequences 
+abc  = "Hello \n\tWorld \nThis is a backslash: \ "
+print(abc)
