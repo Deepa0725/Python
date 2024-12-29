@@ -44,3 +44,4 @@ print("Number of characters:",count)
 # Escape Sequence Practice: Write a Python program that uses escape sequences 
 abc  = "Hello \n\tWorld \nThis is a backslash: \ "
 print(abc)
+
