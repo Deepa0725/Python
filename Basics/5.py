@@ -111,3 +111,28 @@ print(a / b)  # Output: 3.3333...
 print(a // b)  # Output: 3 (Floor Division)
 print(a % b)  # Output: 1 (Modulus)
 print(a ** b)  # Output: 1000 (Exponentiation)
+
+#1  LOGICAL OPERATORS Write a Python program that takes two numbers as input from the user and checks if:
+num1 = int(input("Enter a number:" ))
+num2 = int(input("Enter a number:" ))
+
+# Both numbers are greater than 10 (using and).
+print(num1 > 10 and num2 > 10)
+
+# At least one of the numbers is less than 5 (using or).
+print(num1 < 5 or num2 < 5)
+
+# The first number is not greater than the second (using not).
+print(not(num1 < num2))
+
+
+#2 COMPARISION OPERATOR a Python program that asks the user for their age and prints:
+''' "You are an adult" if the age is greater than or equal to 18.
+"You are a minor" if the age is less than 18.
+Use >= and < comparison operators.'''
+
+age = int(input("Enter your Age: "))
+if age >= 18:
+    print("You are a Adult")
+elif age < 18:
+    print("You are a minor")
