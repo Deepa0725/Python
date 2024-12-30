@@ -87,3 +87,16 @@ print(colors)
 
 colors[1] = "Green"
 print(colors)
+
+# Slicing Lists
+
+''' *start: The index to start the slice (inclusive).
+    *stop: The index to stop the slice (exclusive).
+    *step: The number of steps to skip elements (default is 1)'''
+    
+    
+numbers = [0, 1, 2, 3, 4, 5, 6]                        # Syntax:    list_name[start:stop:step]
+print(numbers[1:4])
+print(numbers[:4])
+print(numbers[2:])  
+print(numbers[::2])
