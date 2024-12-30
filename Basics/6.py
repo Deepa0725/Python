@@ -14,7 +14,7 @@ print(item1, item2, item3)
 items = ["Books", "Pencil", "Pens", "Eraser", "Scale"]
 print(items)
 
-print(items[0])
+print(items[0])         #Example for Accessing list elements  '''syntax: list_name[index]'''
 print(items[-1])
 
 # Example2
@@ -32,3 +32,23 @@ print(numbers)
 # Example5
 mixed = ["apple", 3, True]
 print(mixed)
+
+# Example6
+names = ["Deepa", "Janya", "Ram", "Sita", "Hello"]
+print(names)
+
+'''To remove the last element'''     #Remove
+names.pop()
+print(names)
+
+'''To remove the first element'''
+names.pop(0)
+print(names)
+
+'''To remove the particular element'''
+names.pop(2)
+print(names)
+
+'''Adding the items to the lists'''          #Adding
+names.append("Lakshman")
+print(names)
