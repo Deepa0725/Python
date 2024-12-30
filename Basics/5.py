@@ -136,3 +136,27 @@ if age >= 18:
     print("You are a Adult")
 elif age < 18:
     print("You are a minor")
+    
+    
+# 3 Membership Operator : Write a Python program that:
+'''Takes a string as input from the user.
+Checks if the letter 'a' is in the string (using in).
+Checks if the string doesn't contain the word "Python" (using not in)'''
+
+xyz = input("Enter the string: ")
+print("a" in xyz)
+print("Python" not in xyz)
+
+
+# Bitwise Operator : Given two integers, write a Python program that:
+'''Prints the result of a & b, a | b, and a ^ b.
+Shifts the bits of a two positions to the left (a << 2).
+Shifts the bits of b one position to the right (b >> 1)'''
+
+h = int(input("Enter a number1: "))
+j = int(input("Enter a number2: "))
+print(h & j)
+print(h | j)
+print(h ^ j)
+print(h << 2)
+print(j >> 1)
