@@ -37,18 +37,53 @@ print(mixed)
 names = ["Deepa", "Janya", "Ram", "Sita", "Hello"]
 print(names)
 
-'''To remove the last element'''     #Remove
+
+# Modifing the list elements
+
+# Adding the elements
+'''append(): Adds an element to the end of the list.'''          
+names.append("Lakshman")
+print(names)
+
+'''insert(): Inserts an element at a specific index.'''
+names.insert(0,"Hanuman")
+
+# Removing Elements
+'''pop(): Removes the element at a specific index (or the last item if no index is provided).'''     
 names.pop()
 print(names)
 
-'''To remove the first element'''
-names.pop(0)
-print(names)
+names.pop(0)  
+print(names)     # To remove the particular element
 
-'''To remove the particular element'''
 names.pop(2)
 print(names)
 
-'''Adding the items to the lists'''          #Adding
-names.append("Lakshman")
-print(names)
+'''remove(): Removes the first occurrence of an element.'''
+names.remove("Hello")
+print("names")
+
+# Example7
+a = ["hi", "hello", "gm", "gm"]
+print(a)
+
+a.remove("gm")
+print(a)
+
+
+'''clear(): Removes all elements from the list.'''
+a.clear()
+print(a)
+
+
+# CHANGING THE SPECIFIC ELEMENT        '''IMP''
+# Example8
+
+colors = ["pink", "red", "blue"]
+print(colors)
+
+colors[0] = "Black"
+print(colors)
+
+colors[1] = "Green"
+print(colors)
