@@ -147,3 +147,27 @@ print(Birds)  #Output:['Eagle', 'Crow', 'Peacock', 'Dove', 'Peigon', 'Parrot']
 numbers = [5, 2, 9, 1]
 numbers.sort()
 print(numbers)  # Output: [1, 2, 5, 9]
+
+
+# Nested Lists
+'''Lists can contain other lists, allowing you to create nested lists. This can be useful for storing matrix-like data structures.'''
+
+# Example:1
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print(matrix)
+
+# Accessing elements in a nested list
+print(matrix[0])  # Output: [1, 2, 3] (first row)
+print(matrix[1][1])  # Output: 5 (element in the second row, second column)
+
+# Example:2
+m = [[1, 2], [3,4]]
+print(m)
+print(type(m))
+
+print(m[0])
+print(m[0][1])
