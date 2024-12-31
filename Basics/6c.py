@@ -17,3 +17,24 @@ print(heterogeneousList)
 # 5. Finding the length of a list in Python
 ProgrammingList = ["CSharp","Python","PHP","R"]
 print(len(ProgrammingList))
+
+# 6. Finding the index of items in a Python list
+fruits = ["apple","banana","mango"]
+bananaIndex = fruits.index("banana")
+mangoIndex = fruits.index("mango")
+print(bananaIndex)
+print(mangoIndex)
+
+pythonList = ["p","y","t","h","o","n"]
+
+# to get the 1st item
+print(pythonList[0])
+
+#to get the 4th item
+print(pythonList[3])
+
+# Negative indexing to get last item
+print(pythonList[-1])
+
+# To get second last item
+print(pythonList[-2])
