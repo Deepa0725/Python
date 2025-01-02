@@ -3,7 +3,7 @@ groceryList = ["Rice","Wheat","Barley"]
 print(groceryList)
 
 # 2. Python list of numbers
-myNumbers = [1,5,9,16,28]
+myNumbers = [1,5,9,16,28 ] 
 print(myNumbers)
 
 # 3. Python list with duplicate values
