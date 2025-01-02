@@ -60,3 +60,25 @@ print(repeated_tuple)  # Output: (1, 2, 1, 2, 1, 2)
 print("apple" in fruits)  # Output: True
 
 print("hello" in fruits)  #Output: False
+
+
+
+#4 Tuple Methods
+'''Though tuples are immutable, Python provides some built-in methods for working with tuples.'''
+
+# count(): Returns the number of times an element appears in the tuple.
+
+my_tuple = (1, 2, 3, 1, 1)
+print(my_tuple.count(1))  # Output: 3
+
+print(genders.count("Male"))
+
+# index(): Returns the index of the first occurrence of an element.
+
+my_tuple = ("apple", "banana", "cherry")
+print(my_tuple.index("banana"))  # Output: 1
+
+print(genders.index("Male"))
+
+hi = ("ggdg", "gfdgd", "hgyjhf", (1,2,3))
+print(hi)
