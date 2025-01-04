@@ -83,3 +83,33 @@ num2 = float(input('Enter second number: '))
 
 # calling function and print the subtraction value
 print('The subtraction of numbers = %0.2f' %sub_num(num1, num2))
+
+
+'''7. Write a Python program to accept two numbers multiply them and print the result
+'''
+# Python program to multiply two number
+
+# take inputs
+num1 = 3
+num2 = 5
+
+# calculate product
+product = num1*num2
+
+# print multiplication value
+print("The Product of Number:", product)
+
+
+'''8. Write a Python program to ask from the user two numbers and print their product
+'''
+# Python program to multiply two number
+
+# take inputs
+num1 = float(input('Enter first number: '))
+num2 = float(input('Enter second number: '))
+
+# calculate product
+product = num1*num2
+
+# print multiplication value
+print("The Product of Number: %0.2f" %product)
