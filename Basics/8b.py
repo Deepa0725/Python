@@ -35,3 +35,29 @@ print("Cities: ", karnataka.keys())
 '''Use the values() method to print all dishes in the dictionary.'''
 print(karnataka.values())
 print("Dishes: ", karnataka.keys())
+
+# 2. Nested Dictionary Practice :
+
+'''Creating a dictionary to store details of two of your friends, including their names, favorite subject, and favorite food.'''
+friends_details = {
+    "Friend1" : {
+        "Name" : "Janya",
+        "Favourite subject" : "Science",
+        "Favourite Food" : "Chicken"
+    },
+   "Friend2" : {
+        "Name" : "Saniya",
+        "Favourite subject" : "Maths",
+        "Favourite Food" : "Pizza"
+    }
+}
+
+print(friends_details)
+
+'''Access and print the favorite food of one friend.'''
+
+print("Favourite food of Friend1: ", friends_details["Friend1"]["Favourite Food"])
+
+'''Access and print the favorite subject of one friend.'''
+
+print("Favourite subject of Friend2: ", friends_details["Friend2"]["Favourite subject"])
