@@ -1,0 +1,28 @@
+'''1. Write a Python program to add two numbers.'''
+# python program to add two numbers
+
+# take inputs
+num1 = 5
+num2 = 10
+
+# add two numbers
+sum = num1 + num2
+
+# displaying the addition result
+print('{0} + {1} = {2}'.format(num1, num2, sum))
+
+
+'''2. write a python program to accept two number from user, add the numbers and display it?'''
+# python program to add two numbers with user input
+
+# store input numbers
+num1 = input('Enter First Number: ')
+num2 = input('Enter Second Number: ')
+
+# add two numbers
+# User might also enter float numbers
+sum = float(num1) + float(num2)
+
+# displaying the adding result
+# value will print in float
+print('The sum of numbers {0} and {1} is {2}'.format(num1, num2, sum))
