@@ -42,3 +42,30 @@ num2 = float(input('Enter second number : '))
 # function call
 print('The sum of numbers {0} and {1} is {2}'
        .format(num1, num2, add_num(num1, num2)))
+
+
+'''#4.  Python program to subtract two numbers
+'''
+# take inputs
+num1 = 10
+num2 = 7
+
+# subtract two numbers
+sub = num1 - num2
+
+# print the subtraction result
+print('The subtraction of numbers =', sub)
+
+
+'''#5. Python program to subtract two numbers
+'''
+# take inputs
+num1 = float(input('Enter first number: '))
+num2 = float(input('Enter second number: '))
+
+# subtract two numbers
+sub = num1 - num2
+
+# print the subtraction result
+# value will print in float
+print('The subtraction of numbers = %0.2f' %sub)
