@@ -26,3 +26,19 @@ sum = float(num1) + float(num2)
 # displaying the adding result
 # value will print in float
 print('The sum of numbers {0} and {1} is {2}'.format(num1, num2, sum))
+
+
+'''3. write a program to add two numbers using function in python'''
+# Python program to add two numbers using function
+
+def add_num(a,b):   #user-defined function
+    sum = a + b   #adding numbers
+    return sum   #return value
+
+# take input
+num1 = float(input('Enter first number : '))
+num2 = float(input('Enter second number : '))
+
+# function call
+print('The sum of numbers {0} and {1} is {2}'
+       .format(num1, num2, add_num(num1, num2)))
