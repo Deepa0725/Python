@@ -69,3 +69,17 @@ sub = num1 - num2
 # print the subtraction result
 # value will print in float
 print('The subtraction of numbers = %0.2f' %sub)
+
+
+'''# 6. Python program to subtract two numbers
+'''
+def sub_num(num1, num2):  #user-defined function
+    #subtract two numbers
+    return num1-num2
+    
+# take inputs
+num1 = float(input('Enter first number: '))
+num2 = float(input('Enter second number: '))
+
+# calling function and print the subtraction value
+print('The subtraction of numbers = %0.2f' %sub_num(num1, num2))
