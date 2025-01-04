@@ -84,3 +84,86 @@ print(karnataka_food)
 # clear(): Empties the dictionary.
 karnataka_food.clear()
 print(karnataka_food)
+
+
+# 5. Dictionary Methods
+
+# Example
+karnataka_food1 = {
+    "Bengaluru": "Bisi Bele Bath",
+    "Mysuru": "Mysore Pak",
+    "Mangaluru": "Neer Dosa"
+ }
+print(karnataka_food1)
+
+'''keys(): Returns all the keys in the dictionary.'''
+print(karnataka_food1.keys())  # Output: dict_keys(['Bengaluru', 'Mysuru', 'Mangaluru'])
+
+print(Birthday.keys())  # Output : dict_keys(['Deepa', 'Janni', 'Appa'])
+
+
+'''values(): Returns all the values in the dictionary.'''
+print(karnataka_food1.values())  # Output: dict_values(['Bisi Bele Bath', 'Mysore Pak', 'Neer Dosa'])
+
+print(Birthday.values())      # Outyput: dict_values(['07-05-2002', '24-02-2006', '01-11-1969'])
+
+
+'''items(): Returns key-value pairs as tuples.'''
+print(karnataka_food1.items())  # Output: dict_items([('Bengaluru', 'Bisi Bele Bath'), ('Mysuru', 'Mysore Pak'), ('Mangaluru', 'Neer Dosa')])
+
+print(Birthday.items())
+
+'''update(): Updates the dictionary with another dictionary or iterable.'''
+new_dishes = {"Hubballi": "Girmit"}
+karnataka_food1.update(new_dishes)
+print(karnataka_food1)
+print(new_dishes)
+
+
+d = {
+    "str" : "str", 
+    "str" : 123,
+    "f" : 3.5, 
+    "is" : True, 
+    (1) : "sdfdf", 
+    45 : 89, 
+    23 : "ersd"
+}
+print(d)
+
+# Example: Adding the weight
+item1 = {
+    "name" : "Milk", 
+    "weight" : 2,
+    "price" : 30 
+}
+
+item2 = {
+    "name" : "Sugar", 
+    "weight" : 10,
+    "price" : 99.9 
+}
+
+items = [ item1, item2]
+print(items)
+
+print(f"Total Weight: {item1["weight"] + item2["weight"]}Kg")
+
+
+# Example: LIST OF DICT
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+
+print(myfamily)
