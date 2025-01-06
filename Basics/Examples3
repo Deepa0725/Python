@@ -327,3 +327,31 @@ Values Before Swapping
 a = 15.0 and b = 22.0
 Values After Swapping
 a = 22.0 and b = 15.0'''
+
+
+'''#21 Python program to swap two numbers using * and / operator
+'''
+# take inputs
+a = float(input('Enter the value of a: '))
+b = float(input('Enter the value of b: '))
+
+print('Values Before Swapping')
+print('a = ',a, 'and b = ',b)
+
+# swapping of the numbers
+a = a * b
+b = a / b
+a = a / b
+
+# display swapping values
+print('Values After Swapping')
+print('a = ',a, 'and b = ',b)
+
+# Output:-
+
+'''Enter the value of a: 13.6
+Enter the value of b: 10
+Values Before Swapping
+a = 13.6 and b = 10.0
+Values After Swapping
+a = 10.0 and b = 13.6'''
