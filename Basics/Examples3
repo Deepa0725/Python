@@ -209,7 +209,7 @@ avg = (num1 + num2) / 2
 print('The average of numbers = %0.2f' %avg)
 
 
-'''# Python program to find average of two numbers using function
+'''#15.  Python program to find average of two numbers using function
 '''
 def avg_num(num1, num2):   #user-defined function
     avg = (num1 + num2) / 2   #calculate average
@@ -229,3 +229,18 @@ print('The average of numbers = %0.2f' %average)
 # Enter first number: 25
 # Enter second number: 48
 # The average of numbers = 36.50
+
+
+'''16. Print the Square of a Number in Python Using Simple Multiplication
+'''
+a = 3
+square = a * a
+print(square)   #Output:-9
+
+
+'''17. Same Program by defining a function
+'''
+def square(a):
+    return a*a
+
+print(square(5))       # Output:25
