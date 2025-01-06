@@ -180,3 +180,16 @@ division = div_Num(num1, num2)
 # print value
 print("The division of {0} and {1} is {2}"
                 .format(num1,num2,division))
+
+'''#13. Python program to find average of two numbers
+'''
+# first number
+num1 = 10
+# second number
+num2 = 20
+
+# calculate average of those numbers
+avg = (num1 + num2) / 2
+
+# print average value
+print('The average of numbers = %0.2f' %avg)
