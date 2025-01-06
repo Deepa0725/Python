@@ -130,3 +130,53 @@ product = product_num(num1, num2)
 
 # print multiplication value
 print("The Product of Number: %0.2f" %product)
+
+
+'''10. Write a python program to find division between two numbers
+'''
+# Python program to divide two numbers
+
+# take inputs
+num1 = 10
+num2 = 2
+
+# Divide numbers
+division = num1/num2
+
+# print value
+print("The division of {0} and {1} is {2}"
+               .format(num1,num2,division))
+
+
+'''11. Write a program to perform division using variables in python
+'''
+# Python program to divide two numbers
+
+# take inputs
+num1 = float(input('Enter first number: '))
+num2 = float(input('Enter second number: '))
+
+# Divide numbers
+division = num1/num2
+
+# print value
+print("The division of {0} and {1} is {2}"
+                .format(num1,num2,division))
+
+
+'''#12.  Python program to divide two numbers using function
+'''
+def div_Num(num1, num2):  #user-defined function
+    div = (num1/num2)   #divide numbers
+    return div   #return value
+
+# take inputs
+num1 = float(input('Enter first number: '))
+num2 = float(input('Enter second number: '))
+
+# function call
+division = div_Num(num1, num2)
+
+# print value
+print("The division of {0} and {1} is {2}"
+                .format(num1,num2,division))
