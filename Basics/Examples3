@@ -208,3 +208,24 @@ avg = (num1 + num2) / 2
 # print average value
 print('The average of numbers = %0.2f' %avg)
 
+
+'''# Python program to find average of two numbers using function
+'''
+def avg_num(num1, num2):   #user-defined function
+    avg = (num1 + num2) / 2   #calculate average
+    return avg    #return value
+
+# take inputs
+num1 = float(input('Enter first number: '))
+num2 = float(input('Enter second number: '))
+
+# function call
+average = avg_num(num1, num2)
+
+# display result
+print('The average of numbers = %0.2f' %average)
+
+#  Output: 
+# Enter first number: 25
+# Enter second number: 48
+# The average of numbers = 36.50
