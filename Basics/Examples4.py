@@ -23,3 +23,22 @@ SI = (P * R * T) / 100
 print('Simple interest = ',SI )
 print('Total amount = ',( P + SI ))
 
+# Output for the different input values:-
+
+'''Enter principal amount: 1000
+Enter the interest rate: 5
+Enter time: 10
+Simple interest = 500.0
+Total amount = 1500.0
+
+Enter principal amount: 7000
+Enter the interest rate: 7.5
+Enter time: 5
+Simple interest = 2625.0
+Total amount = 9625.0
+
+Enter principal amount: 25000
+Enter the interest rate: 3.8
+Enter time: 7.4
+Simple interest = 7030.0
+Total amount = 32030.0'''
