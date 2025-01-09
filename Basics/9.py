@@ -196,3 +196,19 @@ Sheep 3
 Sheep 4
 Sheep 5
 That's enough counting!
+
+
+Sheep 1
+Sheep 2
+Sheep 3
+Sheep 5
+
+sheep_count = 1
+while sheep_count <= 5:
+    if sheep_count == 4:
+        sheep_count += 1
+        continue
+    print(f"Sheep {sheep_count}")
+    sheep_count += 1
+    
+    
