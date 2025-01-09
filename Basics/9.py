@@ -164,3 +164,15 @@ If none of these times, print "It's not meal time."
 Simple Eligibility Check:
 
 Write a program that checks whether a person is eligible for a library membership. If they are under 18, they get a student membership. If they are 60 or older, they get a senior citizen membership. Otherwise, they get a regular membership.
+
+While Loops in Python
+A loop is a programming structure that repeats a set of instructions as long as a specified condition is True. In Python, the while loop allows you to repeatedly execute a block of code as long as the condition is True.
+
+1. The Basic Structure of a while Loop
+The while loop repeatedly executes a block of code as long as the condition is True.
+
+Syntax:
+while condition:
+    # Code to execute as long as condition is True
+Example:
+Let’s print numbers from 1 to 5 using a while loop.
