@@ -188,3 +188,11 @@ while i <= 5:
 while i <= 5:
     print(i)
     # Forgot to update i, so the condition remains True forever!
+    
+    
+    Sheep 1
+Sheep 2
+Sheep 3
+Sheep 4
+Sheep 5
+That's enough counting!
