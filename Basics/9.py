@@ -176,3 +176,10 @@ while condition:
     # Code to execute as long as condition is True
 Example:
 Let’s print numbers from 1 to 5 using a while loop.
+
+
+
+i = 1
+while i <= 5:
+    print(i)
+    i += 1  # Incrementing i by 1 after each iteration
