@@ -183,3 +183,8 @@ i = 1
 while i <= 5:
     print(i)
     i += 1  # Incrementing i by 1 after each iteration
+    
+    i = 1
+while i <= 5:
+    print(i)
+    # Forgot to update i, so the condition remains True forever!
