@@ -176,3 +176,26 @@ if att >= 75 and is_teacher_friend == True:
     print("EXAM")
 else:
     print("NO EXAM")
+
+
+# 6. Example1: Checking Bus Ticket Prices
+'''Let’s create an example based on ticket prices for a Karnataka KSRTC bus. 
+If the passenger is under 5 years old, the ticket is free. 
+If the passenger is between 5 and 12 years old, they get a child discount. 
+If the passenger is 60 years or older, they get a senior citizen discount. 
+Otherwise, they pay the full fare.'''
+
+age = 65
+
+if age < 5:
+    print("Ticket is free.")
+elif age <= 12:
+    print("You get a child discount.")
+elif age >= 60:
+    print("You get a senior citizen discount.")
+else:
+    print("You pay the full fare.")
+    
+    
+    
+
