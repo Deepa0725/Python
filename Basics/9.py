@@ -195,7 +195,32 @@ elif age >= 60:
     print("You get a senior citizen discount.")
 else:
     print("You pay the full fare.")
+
+
+# 7. Nested if Statements
+'''You can also use if statements inside other if statements. This is called nesting.
+'''
+# Example1:
+'''Let’s say you’re planning to visit Mysuru. You want to decide whether to go based on the day of the week and the weather.
+'''
+day = "Saturday"
+is_raining = False
+
+if day == "Saturday" or day == "Sunday":
+    if not is_raining:
+        print("Let's visit Mysuru!")
+    else:
+        print("It's raining, let's stay home.")
+else:
+    print("It's a weekday, let's wait for the weekend.")
     
+'''Here, the program first checks if it’s a weekend. If it is, it checks the weather. 
+If it’s not raining, it prints "Let's visit Mysuru!", 
+otherwise, it prints "It's raining, let's stay home." 
+On weekdays, it prints "It's a weekday, let's wait for the weekend."'''
+
+
+
     
     
 
