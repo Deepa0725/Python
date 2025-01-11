@@ -108,6 +108,18 @@ elif signal == "yellow":
 else:
     print("GO")
     
+     # Example3:
+signal = input("Enter the signal color: ")
+
+if signal == "red":
+    print("STOP")
+elif signal == "yellow":
+    print("READY")
+elif signal == "green":
+    print("GO")
+else:
+    print("Nothing")
+    
     
 # 4. Comparison Operators in if Statements
 '''==: Equal to
@@ -126,4 +138,41 @@ if age >= 18:
     print("You are eligible to vote.")
 else:
     print("You are not eligible to vote.")
+
+
+# 5. Logical Operators in if Statements
+
+'''and: Returns True if both conditions are True
+or: Returns True if at least one condition is True
+not: Reverses the result of a condition'''
+
+# Example1:
+'''Let’s say you want to check if someone is eligible for a student discount. The person must be both under 18 years of age 
+and have a student ID.'''
+
+
+age = 16
+has_student_id = True
+
+if age < 18 and has_student_id:
+    print("You are eligible for the student discount!")
+else:
+    print("You are not eligible for the student discount.")
     
+# Example2:
+att = 65
+is_teacher_friend = True
+
+if att >= 75 or is_teacher_friend == True:
+    print("EXAM")
+else:
+    print("NO EXAM")
+    
+    # Example3:
+att = 65
+is_teacher_friend = True
+
+if att >= 75 and is_teacher_friend == True:
+    print("EXAM")
+else:
+    print("NO EXAM")
