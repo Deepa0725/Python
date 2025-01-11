@@ -39,3 +39,30 @@ if (y%2) != 0 :
     print("Number is 0dd")    
 
  
+# 2. The else Statement
+'''The else statement provides an alternative block of code to execute when the if condition is False.
+'''
+
+# Syntax:
+'''if condition:
+    # Code block if the condition is True
+else:
+    # Code block if the condition is False'''
+    
+    
+# Example1:
+'''Let's extend the dinner example by adding an alternative action if it's not 8 PM.
+'''
+time = 18  # 6 PM
+if time == 20:
+    print("It's time for dinner!")
+else:
+    print("It's not dinner time yet.")
+
+    
+# Example2:
+y = 9
+if (y%2) == 0 :
+    print("Number is even") 
+else:
+    print("Number is Odd") 
