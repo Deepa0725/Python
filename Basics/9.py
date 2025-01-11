@@ -239,4 +239,20 @@ else:
         print("You pay the full fare.")
     
     
+# 8. Indentation in Python
+'''Python uses indentation (spaces at the beginning of a line) to define blocks of code. 
+The indented code after an if, elif, or else statement belongs to that condition. 
+Make sure to use consistent indentation to avoid errors.
+'''
+# Example1:
+age = 19
 
+if age >= 18:
+    print("You are eligible to vote.")
+    print("Remember to bring your voter ID.")
+else:
+    print("You are not eligible to vote.")
+    
+'''In the example above, the two print() statements are part of the if block because they are indented. 
+Be careful to maintain the correct indentation for your code to run correctly.
+'''
