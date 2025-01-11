@@ -220,7 +220,23 @@ otherwise, it prints "It's raining, let's stay home."
 On weekdays, it prints "It's a weekday, let's wait for the weekend."'''
 
 
+# Example2:
 
+gender = input("Enter the sex: ")
+age = int(input("Enter the age: "))
+
+if gender == "female":
+    print("Ticket is Free")
+    
+else:
+    if age < 5:
+        print("Ticket is free.")
+    elif age <= 12:
+        print("You get a child discount.")
+    elif age >= 60:
+        print("You get a senior citizen discount.")
+    else:
+        print("You pay the full fare.")
     
     
 
