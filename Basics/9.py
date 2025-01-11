@@ -18,6 +18,24 @@ time = 20  # 20 represents 8 PM in 24-hour format
 if time == 20:
     print("It's time for dinner!")
     
+# Example2:
+x = 26
+if x==26:
+    print("Yes x is 26")
 
+# Example3:
+x = 29
+if x==26:
+    print("Yes x is 26")   #Prints nothing
+    
+# Example4:
+y = 4
+if (y%2) == 0 :
+    print("Number is even")   
+
+# Example5:
+y = 5
+if (y%2) != 0 :
+    print("Number is 0dd")    
 
  
