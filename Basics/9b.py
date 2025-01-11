@@ -37,3 +37,19 @@ elif time == 20:
 else:
     print("Its not time for a meal")
 
+#3 Simple Eligibility Check:
+
+'''Write a program that checks whether a person is eligible for a library membership. 
+If they are under 18, they get a student membership. 
+If they are 60 or older, they get a senior citizen membership. 
+Otherwise, they get a regular membership.'''
+
+# program
+age = int(input("Enter your Age: "))
+
+if age < 18:
+    print("Person gets a student membership")
+elif age > 60:
+    print("Person gets a senior citizenship")
+else:
+    print("Person gets a regular membership")
