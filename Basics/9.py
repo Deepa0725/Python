@@ -107,3 +107,23 @@ elif signal == "yellow":
     print("READY")
 else:
     print("GO")
+    
+    
+# 4. Comparison Operators in if Statements
+'''==: Equal to
+!=: Not equal to
+<: Less than
+>: Greater than
+<=: Less than or equal to
+>=: Greater than or equal to'''
+
+# Example1:
+'''Let’s check if someone is eligible to vote in Karnataka (minimum age for voting is 18).
+'''
+age = 19
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+    
