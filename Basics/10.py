@@ -28,3 +28,8 @@ Mangaluru'''
 when you want to repeat a block of code a specific number of times.
 '''
 # Syntax of range():
+'''range(start, stop, step)
+'''
+# start: The starting value (inclusive).
+# stop: The ending value (exclusive).
+# step: The increment (optional, default is 1).
