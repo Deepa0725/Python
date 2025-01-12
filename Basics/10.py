@@ -9,3 +9,15 @@ execute a block of code repeatedly for each element in the sequence.'''
 # Syntax:
 '''for item in sequence:
 '''    # Code to execute for each item in the sequence
+
+# Example1:
+
+cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
+for city in cities:
+    print(city)
+    
+# Output:
+'''Bengaluru
+Mysuru
+Hubballi
+Mangaluru'''
