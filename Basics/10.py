@@ -34,7 +34,7 @@ when you want to repeat a block of code a specific number of times.
 # stop: The ending value (exclusive).
 # step: The increment (optional, default is 1).
 
-# Example: Counting from 1 to 10
+# Example1: Counting from 1 to 10
 for i in range(1, 11):
     print(i)
 
@@ -50,3 +50,17 @@ for i in range(1, 11):
 8
 9
 10'''
+
+
+# Example2: Counting by 2s from 1 to 10
+for i in range(1, 11, 2):
+    print(i)
+    
+# Output:
+
+'''
+1
+3
+5
+7
+9'''
