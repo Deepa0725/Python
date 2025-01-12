@@ -21,3 +21,10 @@ for city in cities:
 Mysuru
 Hubballi
 Mangaluru'''
+
+
+# 2. Using range() with for Loops
+'''The range() function generates a sequence of numbers, which you can use in a for loop 
+when you want to repeat a block of code a specific number of times.
+'''
+# Syntax of range():
