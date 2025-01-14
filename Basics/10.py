@@ -1,42 +1,25 @@
-# For Loops in Python
-'''In Python, a for loop is used to iterate over a sequence (like a list, tuple, string, or range) and 
-execute a block of code repeatedly for each element in the sequence.'''
+# While Loops in Python
+'''A loop is a programming structure that repeats a set of instructions as long as a specified condition is True. 
+In Python, the while loop allows you to repeatedly execute a block of code as long as the condition is True.'''
 
-# 1. The Basic Structure of a for Loop
-'''A for loop allows you to repeat a block of code a fixed number of times, or once for each element in a sequence.
+
+# 1. The Basic Structure of a while Loop
+'''The while loop repeatedly executes a block of code as long as the condition is True.
 '''
-
 # Syntax:
-'''for item in sequence:
-'''    # Code to execute for each item in the sequence
+'''while condition:    '''           # Code to execute as long as condition is True
 
 # Example1:
+# Let’s print numbers from 1 to 5 using a while loop.
 
-cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
-for city in cities:
-    print(city)
-    
-# Output:
-'''Bengaluru
-Mysuru
-Hubballi
-Mangaluru'''
-
-
-# 2. Using range() with for Loops
-'''The range() function generates a sequence of numbers, which you can use in a for loop 
-when you want to repeat a block of code a specific number of times.
-'''
-# Syntax of range():
-'''range(start, stop, step)
-'''
-# start: The starting value (inclusive).
-# stop: The ending value (exclusive).
-# step: The increment (optional, default is 1).
-
-# Example1: Counting from 1 to 10
-for i in range(1, 11):
+i = 1
+while i <= 5:
     print(i)
+    i += 1  # Incrementing i by 1 after each iteration
+    
+'''The loop starts with i = 1 and checks if i <= 5.
+As long as this condition is True, it prints the value of i and increases it by 1 (i += 1).
+The loop ends when i becomes 6, as the condition i <= 5 becomes False.'''
 
 # Output:
 '''
@@ -44,23 +27,4 @@ for i in range(1, 11):
 2
 3
 4
-5
-6
-7
-8
-9
-10'''
-
-
-# Example2: Counting by 2s from 1 to 10
-for i in range(1, 11, 2):
-    print(i)
-    
-# Output:
-
-'''
-1
-3
-5
-7
-9'''
+5'''
