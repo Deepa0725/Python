@@ -27,3 +27,15 @@ print("Doubled List:", doubled)
 Output:
 
 Doubled List: [2, 4, 6, 8, 10]
+
+Example: Printing Kannada food items
+foods = ["Dosa", "Idli", "Vada", "Bisibelebath"]
+
+for food in foods:
+    print(f"I like {food}")
+Output:
+
+I like Dosa
+I like Idli
+I like Vada
+I like Bisibelebath
