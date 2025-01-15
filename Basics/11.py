@@ -54,3 +54,14 @@ Output:
 Anand
 Geetha
 Kumar
+
+Example: Iterating over dictionary values
+student_marks = {"Anand": 85, "Geetha": 90, "Kumar": 78}
+
+for marks in student_marks.values():
+    print(marks)
+Output:
+
+85
+90
+78
