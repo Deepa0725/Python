@@ -91,3 +91,7 @@ for i in range(len(students)):
     student_marks[students[i]] = marks[i]
 
 print(student_marks)
+
+Output:
+
+{'Anand': 85, 'Geetha': 90, 'Kumar': 78}
