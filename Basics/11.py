@@ -39,3 +39,18 @@ I like Dosa
 I like Idli
 I like Vada
 I like Bisibelebath
+
+
+2. Looping Through Dictionaries
+You can use for loops to iterate over dictionaries by accessing both keys and values.
+
+Example: Iterating over dictionary keys
+student_marks = {"Anand": 85, "Geetha": 90, "Kumar": 78}
+
+for student in student_marks:
+    print(student)
+Output:
+
+Anand
+Geetha
+Kumar
