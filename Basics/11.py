@@ -65,3 +65,14 @@ Output:
 85
 90
 78
+
+Example: Iterating over both keys and values
+student_marks = {"Anand": 85, "Geetha": 90, "Kumar": 78}
+
+for student, marks in student_marks.items():
+    print(f"{student} scored {marks} marks")
+Output:
+
+Anand scored 85 marks
+Geetha scored 90 marks
+Kumar scored 78 marks
