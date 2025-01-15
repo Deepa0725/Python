@@ -12,3 +12,18 @@ for num in numbers:
     total += num
 
 print("Total sum:", total)
+
+Output:
+
+Total sum: 150
+Example: Doubling each number in a list
+numbers = [1, 2, 3, 4, 5]
+doubled = []
+
+for num in numbers:
+    doubled.append(num * 2)
+
+print("Doubled List:", doubled)
+Output:
+
+Doubled List: [2, 4, 6, 8, 10]
