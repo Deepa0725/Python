@@ -30,14 +30,15 @@ The loop ends when i becomes 6, as the condition i <= 5 becomes False.'''
 5'''
 
 #Example2
-condition = True
+'''condition = True
 
-# while condition:
-#     print("Condition is true")         #Gives stm continously
+while condition:
+    print("Condition is true")'''         #Gives stm continously
     
 # Example3
 is_failed = True
 i = 1
 
 while is_failed:
-    print(f"Try {i}")
+    print(f"Try {i}")                   #Gives condtinously
+
