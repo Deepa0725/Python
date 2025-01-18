@@ -9,3 +9,18 @@ Otherwise, they pay the full price.
 # program
 person = input("Enter the person: ")
 age = int(input("Enter the age: "))
+
+f age < 5:
+    print("Bus pass is free")
+elif age > 60:
+    print("Person gets a seinor citixen discount")
+else:
+    print("Person pay the full price")
+
+#2 Meal Time Checker:
+
+'''Create a program that checks the time of day (24-hour format) and prints whether it's time for breakfast, lunch, or dinner.
+Breakfast: 8 AM
+Lunch: 1 PM
+Dinner: 8 PM
+If none of these times, print "It's not meal time."'''
