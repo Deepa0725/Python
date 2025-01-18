@@ -21,3 +21,13 @@ while i <= 5:
 As long as this condition is True, it prints the value of i and increases it by 1 (i += 1).
 The loop ends when i becomes 6, as the condition i <= 5 becomes False.'''
 
+# Output:
+'''
+1
+2
+3
+4
+5'''
+
+#Example2
+'''condition = True
