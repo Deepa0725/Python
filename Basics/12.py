@@ -23,4 +23,21 @@ else:
 Breakfast: 8 AM
 Lunch: 1 PM
 Dinner: 8 PM
-If none of these times, print "It's not meal time."'''
+If none of these times, print "It's not meal time."'''# program
+time = int(input("Enter the time: "))
+
+if time == 8:
+    print("Its time for breakfast")
+elif time == 13:
+    print("Its time for lunch")
+elif time == 20:
+    print("Its time for Dinner")
+else:
+    print("Its not time for a meal")
+
+#3 Simple Eligibility Check:
+
+'''Write a program that checks whether a person is eligible for a library membership. 
+If they are under 18, they get a student membership. 
+If they are 60 or older, they get a senior citizen membership. 
+Otherwise, they get a regular membership.'''
