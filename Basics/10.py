@@ -37,8 +37,10 @@ while condition:
     
 # Example3
 is_failed = True
-i = 1
+i = 1     #attempt
 
-while is_failed:
-    print(f"Try {i}")                   #Gives condtinously
-
+while is_failed and i <= 100 :
+    print(f"Try {i}")                   #Gives condtinously 1, 2, 3............
+    i = i + 1
+    
+print("I give up")
