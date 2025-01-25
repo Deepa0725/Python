@@ -40,7 +40,18 @@ is_failed = True
 i = 1     #attempt
 
 while is_failed and i <= 100 :
-    print(f"Try {i}")                   #Gives condtinously 1, 2, 3............
+    print(f"Try {i}")                   #Gives condtinously 1, 2, 3............100
     i = i + 1
     
+print("I give up")
+
+# Example 4
+is_failed = True
+i = 1     #attempt
+
+while is_failed:
+    print(f"Try {i}")                   #using break
+    i = i + 1
+    if i > 100:
+        break
 print("I give up")
