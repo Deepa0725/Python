@@ -55,3 +55,17 @@ while is_failed:
     if i > 100:
         break
 print("I give up")
+
+# Example 5
+is_failed = True
+i = 1     #attempt
+
+while is_failed:
+    if i%2 != 0:
+        i = i + 1
+        continue
+    print(f"Attempt {i}")      #using break and continue
+    i = i + 1                  #
+    if i > 100:
+         break
+print("I give up")
