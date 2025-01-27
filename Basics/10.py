@@ -140,3 +140,58 @@ while sheep_count <= 10:
 # Sheep 4
 # Sheep 5
 # That's enough counting!
+
+# 5. Using continue to Skip an Iteration
+'''The continue statement is used to skip the current iteration and move on to the next one.
+'''
+# Example:
+'''Let’s say you want to skip counting sheep that are number 4:
+'''
+sheep_count = 1
+while sheep_count <= 5:
+    if sheep_count == 4:
+        sheep_count += 1
+        continue
+    print(f"Sheep {sheep_count}")
+    sheep_count += 1
+    
+'''Here, when sheep_count is 4, the continue statement skips printing "Sheep 4", and the loop continues with sheep_count = 5.
+'''
+# Output:
+
+# Sheep 1
+# Sheep 2
+# Sheep 3
+# Sheep 5
+
+# 6. Using while Loops for User Input
+'''You can use a while loop to repeatedly ask the user for input until they provide valid data.
+'''
+# Example:
+'''Let’s ask the user for a PIN until they enter the correct one:
+'''
+
+pin = ""
+correct_pin = "1234"
+while pin != correct_pin:
+    pin = input("Enter your PIN: ")
+    if pin != correct_pin:
+        print("Incorrect PIN. Try again.")
+print("PIN accepted. You can proceed.")
+
+'''The loop keeps running until the user enters the correct PIN.
+If the user enters an incorrect PIN, they are prompted to try again.'''
+
+
+# example2 for only 3 trails
+pin = "1234"
+trails = 1
+
+while trails<=3:
+    input_pin = input(f"Trail-{trails} PIN : ")
+    trails += 1
+    if input_pin == pin:
+      print("Correct")
+      break
+    else:
+      print("Incorrect Password")
