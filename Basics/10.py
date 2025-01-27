@@ -100,3 +100,18 @@ while sheep_count <= 10:
     sheep_count += 1
     
 # This prints "Sheep 1", "Sheep 2", and so on, until "Sheep 10". After that, the loop stops.
+
+
+# 3. Avoiding Infinite Loops
+'''A while loop can run indefinitely if the condition is always True. To prevent this, ensure that the condition eventually becomes False.
+'''
+
+
+# Example of an Infinite Loop:
+# i = 1
+# while i <= 5:
+#     print(i)
+    
+    # Forgot to update i, so the condition remains True forever!
+'''In this case, the loop will keep printing 1 forever because i is never incremented, so the condition i <= 5 will always be True.
+To avoid this, make sure to update the variable that controls the condition within the loop.'''
