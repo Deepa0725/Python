@@ -204,3 +204,12 @@ while trails<=3:
       break
     else:
       print("Incorrect Password")
+      
+# Output:
+'''
+Trail-1 PIN : 5667
+Incorrect Password
+Trail-2 PIN : 5677
+Incorrect Password
+Trail-3 PIN : 1234
+Correct'''
