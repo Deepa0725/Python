@@ -182,6 +182,15 @@ print("PIN accepted. You can proceed.")
 '''The loop keeps running until the user enters the correct PIN.
 If the user enters an incorrect PIN, they are prompted to try again.'''
 
+# output:
+'''
+Enter your PIN: 1557
+Incorrect PIN. Try again.
+Enter your PIN: 55778
+Incorrect PIN. Try again.
+Enter your PIN: 1234
+PIN accepted. You can proceed.'''
+
 
 # example2 for only 3 trails
 pin = "1234"
