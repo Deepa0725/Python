@@ -56,7 +56,7 @@ while is_failed:
         break
 print("I give up")
 
-# Example 5
+# Example 5: Print even numbers
 is_failed = True
 i = 1     #attempt
 
@@ -64,8 +64,39 @@ while is_failed:
     if i%2 != 0:
         i = i + 1
         continue
-    print(f"Attempt {i}")      #using break and continue
-    i = i + 1                  #
+    print(f"Attempt {i}")      #using break and continue 
+    i = i + 1                  
     if i > 100:
          break
 print("I give up")
+
+# Example 6: print 1 - 10
+
+i = 0
+while i <= 10:
+    print(i)
+    i += 1   #i = i +1
+    
+# Example 6: attempts - 1st 2nd iteration
+
+i = 0
+while i <= 10:
+    x = 0
+    while x < i:
+        print("Deepa", end="-")
+        x += 1
+    print("")
+    i += 1   #i = i +1
+    
+    
+    
+# 2. Common Example: Counting Sheep
+'''Let’s relate this to a common example: Imagine you're counting sheep to fall asleep.
+'''
+
+sheep_count = 1
+while sheep_count <= 10:
+    print(f"Sheep {sheep_count}")
+    sheep_count += 1
+    
+# This prints "Sheep 1", "Sheep 2", and so on, until "Sheep 10". After that, the loop stops.
