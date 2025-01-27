@@ -115,3 +115,28 @@ while sheep_count <= 10:
     # Forgot to update i, so the condition remains True forever!
 '''In this case, the loop will keep printing 1 forever because i is never incremented, so the condition i <= 5 will always be True.
 To avoid this, make sure to update the variable that controls the condition within the loop.'''
+
+
+# 4. Using break to Exit a while Loop
+'''You can use the break statement to exit a loop when a certain condition is met.
+'''
+# Example:
+'''Let’s stop counting sheep after 5 sheep, even though the condition allows counting up to 10:
+'''
+sheep_count = 1
+while sheep_count <= 10:
+    print(f"Sheep {sheep_count}")
+    if sheep_count == 5:
+        print("That's enough counting!")
+        break
+    sheep_count += 1
+    
+'''The loop stops after "Sheep 5" because of the break statement, even though the condition was sheep_count <= 10.
+'''
+# Output:
+# Sheep 1
+# Sheep 2
+# Sheep 3
+# Sheep 4
+# Sheep 5
+# That's enough counting!
