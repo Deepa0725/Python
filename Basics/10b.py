@@ -32,3 +32,31 @@ Seat booked!
 Do you want to book a seat? (yes/no): yes
 Seat booked!
 All seats are booked!'''
+
+
+# 8. Nested while Loops
+'''You can also nest while loops inside each other. This can be useful in more complex scenarios, such as checking multiple 
+conditions or dealing with multi-level data.'''
+
+# Example:
+'''Let’s simulate a snack machine that allows users to buy snacks as long as both the machine has snacks and the user has money:
+'''
+
+snacks_available = 3
+money = 10
+
+while snacks_available > 0 and money > 0:
+    print(f"Snacks available: {snacks_available}. Money: ₹{money}")
+    buy = input("Do you want to buy a snack for ₹5? (yes/no): ").lower()
+    
+    if buy == "yes" and money >= 5:
+        snacks_available -= 1
+        money -= 5
+        print("Snack purchased!")
+    else:
+        print("No purchase made.")
+        
+print("Either snacks are sold out or you are out of money.")
+
+'''This loop will continue as long as there are snacks available and the user has money. 
+Once one condition is no longer True, the loop stops.'''
