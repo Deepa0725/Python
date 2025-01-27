@@ -60,3 +60,13 @@ print("Either snacks are sold out or you are out of money.")
 
 '''This loop will continue as long as there are snacks available and the user has money. 
 Once one condition is no longer True, the loop stops.'''
+
+# output:
+'''
+Snacks available: 3. Money: ₹10
+Do you want to buy a snack for ₹5? (yes/no): yes
+Snack purchased!
+Snacks available: 2. Money: ₹5
+Do you want to buy a snack for ₹5? (yes/no): yes
+Snack purchased!
+Either snacks are sold out or you are out of money.'''
