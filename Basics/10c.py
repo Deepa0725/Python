@@ -24,3 +24,26 @@ while i <= 10:
 10
 '''
 
+# 2. Odd Numbers Printer:
+'''Create a program that prints all odd numbers between 1 and 20 using a while loop.'''
+
+i = 0
+ 
+while i <= 20:
+    if i%2 != 0:
+        print(i)
+    i += 1
+
+# OUTPUT:
+'''
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19'''
+
