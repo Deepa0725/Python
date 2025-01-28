@@ -105,3 +105,15 @@ All seats are booked.'''
 '''strip() removes any extra spaces the user might accidentally input.
 lower() ensures the input is case-insensitive (e.g., "Yes", "YES", or "yes" will all work)'''
 
+#4. Countdown Timer:
+'''Write a program that counts down from 10 to 1 using a while loop and prints "Happy New Year!" after the countdown is over.'''
+
+countdown = 10
+
+while countdown > 0:
+    print(countdown)
+    countdown -= 1
+    
+print("HAPPY NEW YEAR")
+
+
