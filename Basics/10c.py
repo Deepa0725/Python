@@ -68,3 +68,40 @@ while seats > 0:
 
 print("All seats are booked.")
 
+# OUTPUT:
+'''
+Seats available: 8
+Would you like to book a seat? (yes/no): yes
+Seat booked! 7 seats remaining.
+Seats available: 7
+Would you like to book a seat? (yes/no): yes
+Seat booked! 6 seats remaining.
+Seats available: 6
+Would you like to book a seat? (yes/no): no
+Booking cancelled.
+Seats available: 6
+Would you like to book a seat? (yes/no): yes
+Seat booked! 5 seats remaining.
+Seats available: 5
+Would you like to book a seat? (yes/no): fdg
+Invalid input, please enter 'yes' or 'no'.
+Seats available: 5
+Would you like to book a seat? (yes/no): yes
+Seat booked! 4 seats remaining.
+Seats available: 4
+Would you like to book a seat? (yes/no): yes
+Seat booked! 3 seats remaining.
+Seats available: 3
+Would you like to book a seat? (yes/no): yes
+Seat booked! 2 seats remaining.
+Seats available: 2
+Would you like to book a seat? (yes/no): yes
+Seat booked! 1 seats remaining.
+Seats available: 1
+Would you like to book a seat? (yes/no): yes
+Seat booked! 0 seats remaining.
+All seats are booked.'''
+
+'''strip() removes any extra spaces the user might accidentally input.
+lower() ensures the input is case-insensitive (e.g., "Yes", "YES", or "yes" will all work)'''
+
