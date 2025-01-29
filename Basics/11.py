@@ -12,3 +12,55 @@ for each element in the sequence.'''
 '''    # Code to execute for each item in the sequence
     
     
+# Example1:
+'''Let’s print each name in a list of Kannada cities:
+'''
+cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
+for city in cities:
+    print(city)
+    
+# Output:
+'''
+Bengaluru
+Mysuru
+Hubballi
+Mangaluru
+'''
+# Example2:
+
+bag =["Red", "Green", "Blue"]
+for ball in bag:
+    print(ball)
+
+# 2. Using range() with for Loops
+'''The range() function generates a sequence of numbers, which you can use in a for loop when you want to repeat a block of code 
+a specific number of times.'''
+
+# Syntax of range():
+'''range(start, stop, step)
+'''
+
+# start: The starting value (inclusive).
+# stop: The ending value (exclusive).
+# step: The increment (optional, default is 1).
+
+
+# Example1 : Counting from 1 to 10
+for i in range(1, 11):
+    print(i)
+'''This loop will print the numbers from 1 to 10.
+'''
+# Output:
+'''
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10'''
+
+
