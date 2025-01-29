@@ -144,4 +144,13 @@ name = " DEEPA"
 for index, letter in enumerate(name):
     print(letter*(index + 0))
 
+# output:    
+'''
+D
+EE
+EEE
+PPPP
+AAAAA'''
 
+for index, num in enumerate(l):
+    print(f"{num}" is in {index }th index))
