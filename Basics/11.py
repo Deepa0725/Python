@@ -99,4 +99,49 @@ for i in range(1, 11, 2):
 9'''
 
 
+# 3. Looping Over Strings
+'''You can also loop over each character in a string using a for loop.
+'''
+# Example1 : Printing each character in a string
+
+name = "Karnataka"
+for letter in name:
+    print(letter)
+    
+# Output:
+'''    
+K
+a
+r
+n
+a
+t
+a
+k
+a'''
+
+'''This loop goes through the string "Karnataka" one character at a time.'''
+
+# Example2
+
+name = " DEEPA"
+
+for letter in name:
+    print(letter)
+    
+# Output:
+'''
+D
+E
+E
+P
+A'''
+
+# Example3:       ENUMERATE
+
+name = " DEEPA"
+
+for index, letter in enumerate(name):
+    print(letter*(index + 0))
+
 
